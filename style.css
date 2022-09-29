@@ -1,0 +1,78 @@
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    background-color: aqua;
+}
+body {
+    margin: 0 auto;
+    background-color: slateblue;
+}
+.info {
+    width: 60%; /* блок info не може бути більним ніж батьківських блок top */
+    height: 300px; /* блок info не може бути більним ніж батьківських блок top */
+    justify-content: center;
+    background-color: slateblue;
+   
+
+}
+h1 {
+    text-align: center;
+}
+
+.photo {
+    width: 30%;
+    height: 300px;
+    background-image: url(https://upload.wikimedia.org/wikipedia/ru/1/19/Vito_Corleone_Marlon_Brando.jpg);
+    border-radius: 20px;
+    background-color: slateblue;
+}
+.info_name {
+    width: 100%;
+    height: 500px;
+    background-color: black;
+}
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    background-color: rgb(0, 255, 200);
+    
+    }
+.top{
+    width: 100%;
+    height: 400px;
+    display: flex;/* не було дозволу на перемшщення */
+    flex-direction: row;
+}    
+
+.bottom {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.lesson1{
+    width: 250px;
+    height: 150px;
+    background-color: rgb(22, 52, 153);
+    border-radius: 20px; /* заокруглені кути*/
+}
+.lesson2{
+    width: 250px;
+    height: 150px;
+    background-color: rgb(13, 236, 24);
+    border-radius: 20px; /* заокруглені кути*/
+}
+.lesson3{
+    width: 250px;
+    height: 150px;
+    background-color: rgb(236, 217, 13);
+    border-radius: 20px; /* заокруглені кути*/
+}
